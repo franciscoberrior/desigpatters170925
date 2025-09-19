@@ -37,11 +37,6 @@ public class LibraryControllerImplement implements LibraryController {
   }
 
   @Override
-  public void giveBook(Long id, String observer) {
-
-  }
-
-  @Override
   public void lendBook(Long id) {
     lenBookInputService.lendBook(id);
   }

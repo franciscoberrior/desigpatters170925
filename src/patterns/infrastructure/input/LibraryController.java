@@ -12,8 +12,6 @@ public interface LibraryController {
 
   List<Book> getAllBooks();
 
-  void giveBook(Long id, String observer);
-
   void lendBook(Long id);
 
 }
